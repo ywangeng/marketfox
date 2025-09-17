@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# PyCharm
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.DS_Store
+
+# Logs
+*.log
+
+# Byte-compiled / C extensions
+*.dll
+
+# Coverage / testing
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Others
+*.sqlite3

@@ -1,0 +1,20 @@
+[project]
+name = "marketfox-backend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic>=2",
+  "SQLAlchemy>=2.0",
+  "asyncpg",
+  "alembic",
+  "psycopg[binary]",
+  "python-dotenv",
+  "pandas",
+  "numpy",
+  "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
